@@ -4,10 +4,6 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(to right, #f9d423, #ff4e50);
   color: #333;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
   min-height: 100vh;
 }
 
@@ -54,9 +50,10 @@ html {
   text-align: center;
   background: white;
   padding: 2rem 3rem;
-  margin-top: 2rem;
+  margin: 2rem auto;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
 }
 
 h1 {
@@ -85,6 +82,9 @@ button:hover {
   max-width: 600px;
   padding: 1rem;
   text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 ul {
@@ -108,12 +108,12 @@ ul li a:hover {
 
 footer {
   text-align: center;
-  margin-top: 2rem;
+  margin: 2rem 0;
   font-size: 0.9rem;
   color: #555;
 }
 
-/* Hidden class for toggle */
+/* Hidden toggle */
 .hidden {
   display: none;
 }
