@@ -6,16 +6,16 @@ document.getElementById("clickMe").addEventListener("click", () => {
   msg.style.color = "#ff4e50";
 });
 
-// Toggle owner info with button text change
+// Toggle owner info
 document.getElementById("showOwner").addEventListener("click", () => {
   const owner = document.getElementById("ownerInfo");
   const button = document.getElementById("showOwner");
 
   if (owner.classList.contains("hidden")) {
-    owner.classList.remove("hidden"); // show
+    owner.classList.remove("hidden");
     button.innerText = "Hide Page Owner";
   } else {
-    owner.classList.add("hidden"); // hide
+    owner.classList.add("hidden");
     button.innerText = "Show Page Owner";
   }
 });
