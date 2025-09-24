@@ -7,7 +7,19 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#explorations">Explorations</a></li>
+      <li><a href="#owner">Owner</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <div class="container" id="home">
     <h1>🐝 Welcome to Seekers Hive</h1>
     <p>Your hub for exploration, learning, and innovation.</p>
     <button id="clickMe">Say Hello</button>
@@ -15,7 +27,7 @@
   </div>
 
   <!-- About Section -->
-  <section class="section">
+  <section class="section" id="about">
     <h2>About Seekers Hive</h2>
     <p>
       Seekers Hive is a place where curiosity meets discovery. 
@@ -26,7 +38,7 @@
   </section>
 
   <!-- Latest Explorations Section -->
-  <section class="section">
+  <section class="section" id="explorations">
     <h2>Latest Explorations</h2>
     <ul>
       <li><a href="#">🌍 Travel: Cancun Adventure (Coming Soon)</a></li>
@@ -36,15 +48,6 @@
   </section>
 
   <!-- Hidden Owner Info -->
-  <section class="section">
+  <section class="section" id="owner">
     <button id="showOwner">Show Page Owner</button>
-    <p id="ownerInfo" class="hidden">👩 This page is owned by <strong>Rehana Parvin</strong>.</p>
-  </section>
-
-  <footer>
-    <p>© 2025 Seekers Hive | Made with curiosity 🐝</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+    <p id="ownerInfo" class="hidden">👩 This page is owned by
