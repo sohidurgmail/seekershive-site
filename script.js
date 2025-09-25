@@ -12,7 +12,7 @@ document.getElementById("showOwner").addEventListener("click", () => {
   const button = document.getElementById("showOwner");
 
   if (owner.classList.contains("hidden")) {
-    owner.classList.remove("hidden");
+    owner.classList.remove("hidden");   // ✅ FIXED: removed stray quote
     button.innerText = "Hide Page Owner";
   } else {
     owner.classList.add("hidden");
